@@ -1,0 +1,6 @@
+[
+  "tests/test_orders.py::OrdersEndpoint::test_add_order",
+  "tests/test_orders.py::OrdersEndpoint::test_get_all_orders",
+  "tests/test_orders.py::OrdersEndpoint::test_get_one_order",
+  "tests/test_orders.py::OrdersEndpoint::test_update_an_order"
+]

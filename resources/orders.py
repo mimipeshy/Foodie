@@ -4,7 +4,7 @@ from models import Orders
 orders = Orders()
 api = Namespace("Orders", description="Order related operations")
 request_model = api.model('Request Model', {"order_type": fields.String,
-                                            "quantity": fields.String,
+                                            "quantity": fields.Integer,
                                             "customer_name":fields.String,
                                             "price": fields.Integer})
 
